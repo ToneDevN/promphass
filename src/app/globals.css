@@ -31,3 +31,42 @@ body {
     text-wrap: balance;
   }
 }
+
+.nav-link {
+  position: relative;
+  padding: 10px 10px;
+  border-radius: 25px;
+  background: linear-gradient(to top, #6462C9, #C1D5F8);
+  box-shadow: 0px 4px 1px #3c1f8f;
+  transition: background-color 0.3s ease;
+}
+
+.inside-link {
+  padding: 5px 20px;
+  border-radius: 18px;
+  background: #AAA7E5
+}
+
+.oval-box{
+  position: absolute;
+  top: 4px;
+  left: 20px;
+  width: 8px;
+  height: 5px;
+  background: white;
+  border-radius: 100px / 50px;
+}
+
+.oval-box2{
+  position: absolute;
+  top: 3px;
+  left: 30px;
+  width: 5px;
+  height: 3px;
+  background: white;
+  border-radius: 100px / 50px;
+}
+
+html {
+      scroll-behavior: smooth;
+}

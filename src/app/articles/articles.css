@@ -1,0 +1,37 @@
+.bg-cirgular {
+    background: radial-gradient(#a6a6a6a6 0%, #ffffff 100%);
+}
+
+.absolute-number {
+    position: absolute;
+    top: -2rem;
+    left: -0.5em;
+}
+
+.custom-box {
+    border: 1px solid black; /* Border around the box */
+    border-radius: 1.5rem;     /* Rounded corners */
+    background: #cfe6ff;
+    position: relative;      /* To position the shadow below the box */
+    padding: 1.5rem;
+    bottom: 0.5rem;
+    right: 0.5rem
+}
+
+.custom-background {
+    border: 1px solid black; /* Border around the box */
+    border-radius: 1.5rem;     /* Rounded corners */
+    background: #150E60;
+    position: relative;      /* To position the shadow below the box */
+}
+
+.custom-divider {
+    border-left: 1px solid black; /* Line between text and icon */
+    height: 100%;
+}
+
+.bg-image {
+    background-image: url('/images/service/BackgrountArticle.png');
+    background-size: cover;
+    background-position: center;
+}

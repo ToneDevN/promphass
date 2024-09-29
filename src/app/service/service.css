@@ -1,0 +1,39 @@
+.circle {
+    shape-outside: circle(50%);
+}
+
+.circle-service-list {
+    shape-outside: circle(50%);
+    height: 4rem;
+    width: 4rem;
+}
+
+.service-list {
+    height: 4rem;
+}
+
+ .triangle-down {
+      width: 0;
+      height: 0;
+      border-left: 1.8rem solid transparent;
+      border-right: 1.8rem solid transparent;
+      border-top: 3rem solid red;
+}
+
+.pointer {
+    background-color: #0b0b5a; /* Dark blue color */
+    clip-path: polygon(0 0, 80% 0, 100% 50%, 80% 100%, 0 100%, 20% 50%);
+}
+
+.pointer-left {
+    background-color: #0b0b5a; /* Dark blue color */
+    clip-path: polygon(20% 0, 100% 0, 80% 50%, 100% 100%, 20% 100%, 0 50%);
+}
+
+.half-circle {
+    background-color: #4c40d6;  /* Adjust color */
+    border-top-left-radius: 100%;  /* Round top-left corner */
+    border-top-right-radius: 100%; /* Round top-right corner */
+    border-bottom-left-radius: 0;  /* Keep bottom-left corner sharp */
+    border-bottom-right-radius: 0; /* Keep bottom-right corner sharp */
+}

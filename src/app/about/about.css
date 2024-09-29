@@ -1,0 +1,8 @@
+.rounded-box {
+    width: 80%; /* Adjust width as necessary */
+    height: 200px; /* Adjust height as necessary */
+    background-color: #f8fafc; /* Light gray background similar to the image */
+    border-radius: 50px; /* Fully rounded corners */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1), 0 0 20px rgba(0, 0, 0, 0.05); /* Outer shadows */
+    margin: 50px auto; /* Center the box horizontally */
+}
