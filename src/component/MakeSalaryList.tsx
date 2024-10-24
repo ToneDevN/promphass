@@ -25,7 +25,7 @@ const MakeSalaryList: React.FC = () => {
             {service.map((service, index) => (
             <li
                 key={index}
-                className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-8 lg:space-x-10 text-white text-base md:text-2xl lg:text-3xl"
+                className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-8 lg:space-x-10 text-white text-base md:text-2xl lg:text-2xl 2xl:text-3xl"
             >
                 {/* วงกลม */}
                 <div className="hidden md:flex border-4 border-[#174264] rounded-full h-12 w-12 md:h-14 md:w-14"></div>

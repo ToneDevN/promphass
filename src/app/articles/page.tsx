@@ -6,7 +6,7 @@ import "./articles.css";
 export default function Service() {
     return (      
         <div className="bg-[#cfe6ff]">
-            <a href="#"  className="fixed bottom-8 right-8 w-16 h-16 bg-[#150E60] text-white px-4 py-2 rounded-full shadow-lg hover:bg-blue-700 transition circle">
+            <a href="#"  className="fixed bottom-8 z-50 right-8 w-16 h-16 bg-[#150E60] text-white px-4 py-2 rounded-full shadow-lg hover:bg-blue-700 transition circle">
                 <FontAwesomeIcon icon={faArrowUp} className="text-white" />
             </a>
 
@@ -42,7 +42,7 @@ export default function Service() {
                     ภงด.51 คือ แบบแสดงรายการภาษีเงินได้นิติบุคคลสำหรับครึ่งรอบระยะเวลาบัญชี (6 เดือน)
                   </p>
                   <img src="/images/service/articlesPicture1.png" alt="Building" className="w-full h-[10rem] md:h-[15rem] lg:h-[20rem] bg-cover rounded-lg mb-6" />
-                  <p className="text-sm md:text-2xl lg:text-3xl text-center rounded-t-[2rem] px-4 leading-relaxed bg-[#3282f6]">
+                  <p className="text-sm md:text-2xl lg:text-3xl text-center rounded-t-[2rem] px-4 xl:mx-8 leading-relaxed bg-[#3282f6]">
                     กำหนดยื่นแบบ ภายในวันที่ 31 สิงหาคมของทุกปี
                   </p>
                   <p className="text-sm md:text-2xl lg:text-3xl text-center rounded-[2rem] px-4 leading-relaxed bg-[#3282f6]">
@@ -175,7 +175,7 @@ export default function Service() {
             <section id="section3">
               <div className="min-h-screen bg-[#2326aa] p-8 md:p-16 lg:p-28">
                 <div className="flex flex-col lg:flex-row justify-center items-center">
-                  <img src="/images/articles/articlePicture3.png" alt="Building" className="hidden lg:flex h-[10rem] md:h-[15rem] lg:h-[20rem] self-end lg:ml-16 mb-6 lg:mb-0" />
+                  <img src="/images/articles/articlePicture3.png" alt="Building" className="hidden lg:flex h-[10rem] md:h-[15rem]  xl:h-[12rem] self-end lg:ml-16 mb-6 lg:mb-0" />
                   <div className='text-center lg:px-8'>
                     <p className='text-2xl md:text-4xl lg:text-5xl font-bold mb-4'>
                       มาตรการลดหย่อนภาษี 2567<br />กระตุ้นการท่องเที่ยวเมืองรอง 55 จังหวัด
@@ -189,13 +189,13 @@ export default function Service() {
                       <br /><u>นิติบุคคล</u>จัดสัมมนาเมืองรองหักรายจ่ายได้ 2 เท่า
                     </p>
                   </div>
-                  <img src="/images/articles/articlePicture4.png" alt="Building" className="hidden lg:flex h-[10rem] md:h-[15rem] lg:h-[20rem] self-end lg:ml-16 mb-6 lg:mb-0" />
+                  <img src="/images/articles/articlePicture4.png" alt="Building" className="hidden lg:flex h-[10rem] md:h-[15rem] xl:h-[12rem] self-end lg:ml-16 mb-6 lg:mb-0" />
                 </div>
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 text-lg md:text-2xl lg:text-3xl mt-8">
                   {/* บุคคลธรรมดา */}
                   <div className="relative px-6 md:px-8 lg:px-12 py-8 bg-[#473dc6] rounded-xl text-center">
-                    <img src="/images/articles/articlePicture5.png" alt="Building" className="hidden lg:flex absolute bottom-0 -right-4 h-[10rem] md:h-[12rem] lg:h-[15rem] self-end" />
+                    <img src="/images/articles/articlePicture5.png" alt="Building" className="hidden xl:flex absolute bottom-0 -right-4 h-[10rem] md:h-[12rem] lg:h-[15rem] self-end" />
                     <p className='text-2xl md:text-3xl lg:text-4xl mb-4'>บุคคลธรรมดา</p>
                     <p className='text-left'>สิทธิประโยชน์ทางภาษี การท่องเที่ยวเมืองรอง สามารถหักค่าใช้จ่ายตามที่จ่ายจริง แต่ไม่เกิน 15,000 บาท</p>
                     <ul className='list-disc text-left ml-8 md:ml-12 lg:ml-16 mt-4'>
@@ -210,7 +210,7 @@ export default function Service() {
 
                   {/* นิติบุคคล */}
                   <div className="relative px-6 md:px-8 lg:px-12 py-8 bg-[#473dc6] rounded-xl text-left">
-                    <div className='hidden absolute lg:flex bottom-0 right-0 space-x-2'>
+                    <div className='hidden absolute xl:flex bottom-0 right-0 space-x-2'>
                       <img src="/images/articles/articlePicture6.png" alt="Building" className="h-[6rem] md:h-[8rem] lg:h-[9rem]" />
                       <img src="/images/articles/articlePicture7.png" alt="Building" className="h-[6rem] md:h-[8rem] lg:h-[9rem]" />
                       <img src="/images/articles/articlePicture8.png" alt="Building" className="h-[6rem] md:h-[8rem] lg:h-[9rem]" />

@@ -16,7 +16,7 @@ const services = [
 const AccountingService: React.FC = () => {
   return (
       // แยก <p> ออกจาก <ul>
-    <div className="w-full px-4 md:px-8 lg:px-16">
+    <div className="w-full px-4 md:px-8 lg:px-16 mb-4">
         {/* หัวข้อ */}
         <p className="text-[#150E60] text-2xl md:text-3xl lg:text-[4rem] mb-8 md:mb-10 text-center">
             เลือกรับบริการเฉพาะด้าน
@@ -27,7 +27,7 @@ const AccountingService: React.FC = () => {
             {services.map((service, index) => (
             <li
                 key={index}
-                className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-8 lg:space-x-10 text-[#150E60] text-xl md:text-2xl lg:text-4xl"
+                className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-8 lg:space-x-10 text-[#150E60] text-xl md:text-2xl lg:text-3xl 2xl:text-4xl"
             >
                 {/* วงกลม */}
                 <div className="hidden md:flex border-4 border-[#b8b8b8] rounded-full h-12 w-12 md:h-14 md:w-14"></div>

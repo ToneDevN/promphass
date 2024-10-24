@@ -4,7 +4,7 @@ const AccountingServiceCard = () => {
     return (      
         <div className="min-h-screen">
             <div className="container h-full mx-auto grid grid-cols-2 content-center text-center text-4xl gap-x-16 lg:gap-x-64 gap-y-16 p-4">
-                <div className="col-span-2 flex justify-center items-center place-self-center rounded-2xl text-lg lg:text-6xl text-[#150E60] font-bold content-center bg-white w-3/5 h-24 ">บริการ บัญชีและภาษี ครบวงจร</div>
+                <div className="col-span-2 flex justify-center items-center place-self-center rounded-2xl text-lg lg:text-6xl text-[#150E60] font-bold content-center bg-white w-3/5 h-24 lg:h-36">บริการ บัญชีและภาษี ครบวงจร</div>
                 {serviceItems.map((item) => (
                     <ServiceCard 
                     key={item.number}

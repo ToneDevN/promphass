@@ -57,7 +57,7 @@ const MakeSalaryCard = () => {
             {/* เงื่อนไขสำหรับหน้าจอใหญ่ lg */}
             {steps.map((step, index) => (
                 <div key={step.id} className="text-white p-4  lg:p-8 hidden lg:flex flex-col items-center">
-                    <div className={`flex flex-col items-center h-[15rem] w-[15rem] px-4 mb-4 half-circle`}>
+                    <div className={`flex flex-col items-center h-[18rem] w-[12rem] px-4 mb-4 half-circle`}>
                         <img src={step.imgSrc} alt={step.title} className="h-16 mt-4 mb-12" />
                         <p className="text-2xl mb-2">{step.title}</p>
                     </div>
